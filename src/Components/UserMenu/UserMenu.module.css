@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+}
+
+.avatar {
+  margin-right: 12px;
+}
+
+.name {
+  font-weight: 700;
+  margin-right: 12px;
+  color: rgb(10, 51, 26);
+}
+
+.button {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: rgb(222, 241, 223);
+  transition: background-color 250ms ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 1px 3px rgba(0, 0, 0, 0.23);
+  color: rgb(10, 51, 26);
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: rgb(180, 201, 179)
+}
